@@ -10,7 +10,7 @@
          all active LTS versions, and optionally the latest RTM version, when releasing new
          major Serilog versions. -->
     <TargetFrameworks>$(TargetFrameworks);net8.0;net6.0;netstandard2.0</TargetFrameworks>
-    <AssemblyName>Serilog.Sinks.Debug</AssemblyName>
+    <AssemblyName>Bbsw-Serilog.Sinks.Debug</AssemblyName>
     <AssemblyOriginatorKeyFile>../../assets/Serilog.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
