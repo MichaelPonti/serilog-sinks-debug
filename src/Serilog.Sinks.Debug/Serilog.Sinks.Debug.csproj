@@ -35,12 +35,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Serilog" Version="4.0.0" />
+    <None Include="..\..\assets\icon.png" Pack="true" Visible="false" PackagePath="" />
+    <None Include="../../README.md" Pack="true" Visible="false" PackagePath="/" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\assets\icon.png" Pack="true" Visible="false" PackagePath="" />
-    <None Include="../../README.md" Pack="true" Visible="false" PackagePath="/" />
+    <ProjectReference Include="..\..\..\serilog\src\Serilog\Serilog.csproj" />
   </ItemGroup>
 
 </Project>
